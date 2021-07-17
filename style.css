@@ -1,0 +1,54 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type:y  mandatory;
+    overflow: auto;
+}
+
+main div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    /* transform: translate(-50%, -50%); */
+}
+
+h1{
+    mix-blend-mode: soft-light;
+    width: 50%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    background-size: cover;
+    background-position: center;
+    background-image: url('./images/travel-3871114_1920.jpg');
+}
+
+.two{
+    background-image: url('./images/sunrise-1139562_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url('./images/sunset-1139296_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
